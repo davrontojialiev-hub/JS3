@@ -19,4 +19,4 @@ for (let i = 1; i <= number; i++) {
  let num1 = +(prompt("Введите любое число:"));
  let degree = +(prompt("Введите степень:"));
 
-console.log("ответ: " + Math.pow(num1, degree));
+console.log("ответ: " + (num1 ** degree));
