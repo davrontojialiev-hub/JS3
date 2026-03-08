@@ -23,4 +23,4 @@ for (let i = 1; i <= number; i++) {
  for (let i = 0; i < degree; i++) {
     result *= num1;
  }
- alert("ответ: " + result);
+  alert("ответ: " + result);
