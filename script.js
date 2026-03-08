@@ -16,7 +16,11 @@ for (let i = 1; i <= number; i++) {
  console.log("Сумма всех четных чисел:" + sum);
  
 
+ 
  let num1 = +(prompt("Введите любое число:"));
  let degree = +(prompt("Введите степень:"));
-
-console.log("ответ: " + (num1 ** degree));
+ let result = 1;
+ for (let i = 0; i < degree; i++) {
+    result *= num1;
+ }
+ alert("ответ: " + result);
